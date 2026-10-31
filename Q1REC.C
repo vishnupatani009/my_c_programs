@@ -8,7 +8,7 @@ int main()
     printf("Enter a string: ");
     gets(str);
 
-    printf("Lowercase = %s", strlwr(str));
+    printf("Length = %d", strlen(str));
 
     return 0;
 }
